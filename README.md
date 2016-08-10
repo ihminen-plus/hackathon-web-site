@@ -13,3 +13,6 @@ Installing on Ubuntu:
 Run the following command in the repository root folder:
 
     hugo serve --buildDrafts
+
+and follow the link printed on console. The page updates automatically
+as you modify the files.
