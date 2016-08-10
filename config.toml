@@ -37,7 +37,7 @@ theme = "iplus-theme"
   # about section
   [params.about]
     enable = true
-    title = "Who am I"
+    title = "About"
     description = "Aliquam ante ac id. Adipiscing interdum lorem praesent fusce pellentesque arcu feugiat. Consequat sed ultricies rutrum. Sed adipiscing eu amet interdum lorem blandit vis ac commodo aliquet integer vulputate phasellus lorem ipsum dolor lorem magna consequat sed etiam adipiscing interdum."
     buttonText = "next"
     # the picture is storead at static/images/
@@ -49,7 +49,7 @@ theme = "iplus-theme"
 
   [params.infos]
     enable = true
-    title = "One more thing"
+    title = "Challenges"
     description = "Aliquam ante ac id. Adipiscing interdum lorem praesent fusce pellentesque arcu feugiat. Consequat sed ultricies rutrum. Sed adipiscing eu amet interdum lorem blandit vis ac commodo aliquet integer vulputate phasellus lorem ipsum dolor lorem magna consequat sed etiam adipiscing interdum."
     # the picture is storead at static/images/
     picture = "pic03.jpg"
@@ -96,11 +96,6 @@ theme = "iplus-theme"
         link = "#"
 
       [[params.footer.social]]
-        title = "Dribbble"
-        icon = "fa-dribbble"
-        link = "#"
-
-      [[params.footer.social]]
         title = "Email"
         icon = "fa-envelope"
         link = "#"
@@ -109,7 +104,7 @@ theme = "iplus-theme"
     #[params.footer.copyright.notice]
 
       [[params.footer.copyright.notice]]
-        text = "© Untitled"
+        text = "© Otavan Opisto 2016"
 
       [[params.footer.copyright.notice]]
         text = "Design: Ilmo Euro & [HTML5UP](//html5up.net)"
