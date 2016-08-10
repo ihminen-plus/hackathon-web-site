@@ -31,8 +31,8 @@ theme = "iplus-theme"
   # Hero Section
   [params.hero]
     title = "I+ Hackathon"
-    description = "Enhance Yourself!"
-    buttonText = "Do it!"
+    description = "Lorem ipsum"
+    buttonText = "Dolor sit amet"
 
   # about section
   [params.about]
