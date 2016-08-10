@@ -1,5 +1,3 @@
-Web site source code for Ihminen+ hackathon
-
 # Installing dependencies
 
 This is a static site generated using Hugo. Installing hugo on OSX:
