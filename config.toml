@@ -2,6 +2,7 @@ baseurl = "http://iplus-hackathon.futurehack.fi/"
 languageCode = "en-us"
 title = "I+ Hackathon"
 theme = "iplus-theme"
+destionation = "docs"
 
 [params]
 
