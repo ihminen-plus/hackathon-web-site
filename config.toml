@@ -1,4 +1,4 @@
-baseurl = "https://hack.ihminenplus.fi/"
+baseurl = "http://hack.ihminenplus.fi/"
 languageCode = "en-us"
 title = "I+ Hackathon"
 theme = "iplus-theme"
@@ -32,14 +32,14 @@ destionation = "docs"
   # Hero Section
   [params.hero]
     title = "I+ Hackathon"
-    description = "Lorem ipsum"
-    buttonText = "Dolor sit amet"
+    description = "17.-18.9.2016"
+    buttonText = "More information"
 
   # about section
   [params.about]
     enable = true
     title = "About"
-    description = "Aliquam ante ac id. Adipiscing interdum lorem praesent fusce pellentesque arcu feugiat. Consequat sed ultricies rutrum. Sed adipiscing eu amet interdum lorem blandit vis ac commodo aliquet integer vulputate phasellus lorem ipsum dolor lorem magna consequat sed etiam adipiscing interdum."
+    description = "<h4>Location</h4><p>Xinno, MAMK main campus</p><h4>Tracks</h4><ul><li>Human upgrade</li><li>Future vision</li></ul>"
     buttonText = "next"
     # the picture is storead at static/images/
     # picture = "bg.jpg"
@@ -49,7 +49,7 @@ destionation = "docs"
     enable = false
 
   [params.infos]
-    enable = true
+    enable = false
     title = "Challenges"
     description = "Aliquam ante ac id. Adipiscing interdum lorem praesent fusce pellentesque arcu feugiat. Consequat sed ultricies rutrum. Sed adipiscing eu amet interdum lorem blandit vis ac commodo aliquet integer vulputate phasellus lorem ipsum dolor lorem magna consequat sed etiam adipiscing interdum."
     # the picture is storead at static/images/
@@ -64,7 +64,7 @@ destionation = "docs"
   # It's possible to disable the whole footer or disable only social icons or contact form
 
   [params.footer]
-    enable = true
+    enable = false
     title = "Get in Touch"
 
     # contact form
