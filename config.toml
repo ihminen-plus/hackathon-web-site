@@ -1,4 +1,4 @@
-baseurl = "http://iplus-hackathon.futurehack.fi/"
+baseurl = "https://hack.ihminenplus.fi/"
 languageCode = "en-us"
 title = "I+ Hackathon"
 theme = "iplus-theme"
