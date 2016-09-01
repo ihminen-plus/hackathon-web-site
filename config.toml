@@ -13,8 +13,8 @@ destionation = "docs"
 
   # To provide more meta data for search engings feel free to add a few informations.
   # This lines will be inserted as meta tags.
-  name = "Ihminen+ Hackathon"
-  description = "Lorem Ipsum Dolor Sit Amet"
+  name = "Ihminen+ Hack"
+  description = "Hackathon for Ihminen+ Event"
 
   # For a static site it's not possible to provide a contact form. The contact form uses
   # www.formspree.io as a proxy. The form makes a Post request to their servers to send an email
@@ -31,27 +31,129 @@ destionation = "docs"
 
   # Hero Section
   [params.hero]
-    title = "I+ Hackathon"
-    description = "17.-18.9.2016"
+    title = "Ihminen+ Hack"
+    description = "Mikkeli 17.&mdash;18.9.2016"
     buttonText = "More information"
 
   # about section
   [params.about]
     enable = true
     title = "About"
-    description = "<h4>Location</h4><p>Xinno, MAMK main campus</p><h4>Tracks</h4><ul><li>Human upgrade</li><li>Future vision</li></ul>"
+    description = """
+Ihminen+ Hackathon is a hackathon accompanying the [Ihminen+
+seminar](https://www.ihminenplus.fi/). The events are independent, so you can
+sign up to the hackathon without attending the seminar.  Prizes will be given
+out in 3 categories: Human Upgrade, Future Vision and People's Choice. Winner of
+each category will receive awesome prizes and tickets to the main seminar event.
+
+#### Location
+
+Xinno, MAMK main campus <br/>
+Prikaatinkatu 3 <br/>
+50100 Mikkeli <br/>
+
+#### Date
+
+17.&mdash;18.9.2016
+
+<p style="text-align: center;margin-top:3.5em;margin-bottom:1.5em;">
+    <a class="button special"
+       style="background-color: #fa0;"
+       href="https://goo.gl/forms/hcjI7A97KJ7qv9wx1">Sign up now!</a>
+    
+</p>
+<p style="text-align: center;margin-top:1.5em;margin-bottom:1.5em;">
+    More information about tracks below.
+</p>
+
+"""
     buttonText = "next"
     # the picture is storead at static/images/
     # picture = "bg.jpg"
 
   # skill section
   [params.skill_list]
-    enable = false
+    enable = true
+    title = "Human Upgrade"
+    description = """
+
+Human Upgrade is a technical track for hacking functional prototypes - mock-ups
+and presentations are not enough.  Your prototype is judged based on what works,
+not how the prototype is supposed to work.
+
+## Challenges
+
+### Human-Computer Interaction
+
+Find new ways for humans to interact with computers. This could mean a new kind
+of user interface, possibly gesture- or movement-based, new ways to visualize
+information or a new form of interface between a human and a computer.
+
+### Cognitive Computing
+
+Give your computer a brain! This challenge is about expanding computing to areas
+that are traditionally more suitable for humans. Some of the many applicable
+technologies are machine learning, fuzzy logic, computer vision, natural
+language processing and evolutionary computation.
+
+### Virtual reality and Augmented reality
+
+Merge the computer's world with your own in this challenge. Either make
+creations that immerse others totally in their man-made world, or combine the
+best parts of virtual and physical reality.
+
+### Wearable electronics
+
+Augment yourself with self-made digital gadgets. We provide the materials for
+building devices that can measure your body and movement, and interface with
+smart phones or computers.
+
+### Open challenge
+
+Build anything! We accept functional prototypes that don't fit in the other
+categories.
+
+## Prizes
+
+To be announced
+
+"""
 
   [params.infos]
-    enable = false
-    title = "Challenges"
-    description = "Aliquam ante ac id. Adipiscing interdum lorem praesent fusce pellentesque arcu feugiat. Consequat sed ultricies rutrum. Sed adipiscing eu amet interdum lorem blandit vis ac commodo aliquet integer vulputate phasellus lorem ipsum dolor lorem magna consequat sed etiam adipiscing interdum."
+    enable = true
+    title = "Future visions"
+    description = """
+Future Visions is a track for presenting and visualizing your vision of the
+future. The result can be a presentation, a video, a 3D model, a miniature
+model, or some other way to communicate your idea to others. Product ideas,
+utopias, simulations, and concepts are all welcome. Use your imagination!
+Your concept is judged based on its freshness, vision, imaginativeness and
+presentation.
+
+## Challenges
+
+### Society and everyday life
+
+Now it's your time to make a difference. Either propose a small improvement to
+the ways things are done around you, or present wild visions of a world order
+that would be right in your opinion. 
+
+### Smart city
+
+What would the city of the future look like? How do new technologies and the
+recent explosion of available data shape metropolises? Present your ideal city,
+or just your outlook on the direction cities are moving towards.
+
+### Transportation
+
+How do people travel in the future &mdash; or do they travel at all?
+Transportation is an important part of cultural and economic development.
+Show us how you think the technology of moving around advances in the future.
+
+### Learning
+
+Learning is more than just sitting in a classroom. How does the 
+"""
     # the picture is storead at static/images/
     # picture = "bg.jpg"
 
