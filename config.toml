@@ -32,7 +32,10 @@ destionation = "docs"
   # Hero Section
   [params.hero]
     title = "Ihminen+ Hack"
-    description = "Mikkeli 17.&mdash;18.9.2016"
+    description = """
+A hackathon about human future and technology <br/>
+Mikkeli 17.&mdash;18.9.2016
+"""
     buttonText = "More information"
 
   # about section
@@ -40,11 +43,12 @@ destionation = "docs"
     enable = true
     title = "About"
     description = """
-Ihminen+ Hackathon is a hackathon accompanying the [Ihminen+
-seminar](https://www.ihminenplus.fi/). The events are independent, so you can
+Ihminen+ Hack is a hackathon accompanying the [Ihminen+
+seminar](http://www.ihminenplus.fi/). The events are independent, so you can
 sign up to the hackathon without attending the seminar.  Prizes will be given
-out in 3 categories: Human Upgrade, Future Vision and People's Choice. Winner of
-each category will receive awesome prizes and tickets to the main seminar event.
+out in 3 categories: Human Upgrade, Future Vision and People's Choice. The
+winning team of each category will receive awesome prizes and tickets to
+the main seminar event. Teams are limited to 4 members.
 
 #### Location
 
@@ -89,6 +93,18 @@ Find new ways for humans to interact with computers. This could mean a new kind
 of user interface, possibly gesture- or movement-based, new ways to visualize
 information or a new form of interface between a human and a computer.
 
+#### Example projects
+
+ * Instrument played with your gestures
+ * Visualization for exploring open data trends
+ * Head tracker used for controlling mouse cursor
+
+#### Materials available for projects
+
+ * Myo gesture sensor (http://www.myo.com)
+ * Leap Motion gesture sensor (http://www.leapmotion.com)
+ * Arduino-based motion, direction and touch sensor modules
+
 ### Cognitive Computing
 
 Give your computer a brain! This challenge is about expanding computing to areas
@@ -96,17 +112,40 @@ that are traditionally more suitable for humans. Some of the many applicable
 technologies are machine learning, fuzzy logic, computer vision, natural
 language processing and evolutionary computation.
 
+#### Example projects
+
+ * Virtual digital assistant for lawyers
+ * Computer vision system for determining the alertness level of a person
+ * Program for summarizing long articles
+
 ### Virtual reality and Augmented reality
 
 Merge the computer's world with your own in this challenge. Either make
 creations that immerse others totally in their man-made world, or combine the
 best parts of virtual and physical reality.
 
+#### Example projects
+
+ * Augmented reality game
+ * 3D virtual reality web browser 
+ * Virtual environment for exploring the mechanics of a car engine
+
 ### Wearable electronics
 
 Augment yourself with self-made digital gadgets. We provide the materials for
 building devices that can measure your body and movement, and interface with
 smart phones or computers.
+
+#### Example projects
+
+ * T-shirt with flashing lights
+ * Posture sensor/alarm
+ * Sports tracker
+
+#### Materials available for projects
+
+ * Lilypad sewable electronic modules
+ * T-shirts
 
 ### Open challenge
 
@@ -115,7 +154,7 @@ categories.
 
 ## Prizes
 
-To be announced
+Each member of the winning team gets a Nintendo 2DS handheld game console.
 
 """
 
@@ -162,7 +201,7 @@ Visions of the future shouldn't be confin
 
 ## Prizes
 
-To be announced
+Each member of the winning team gets a Polar Loop 2 activity tracker.
 """
     # the picture is storead at static/images/
     # picture = "bg.jpg"
