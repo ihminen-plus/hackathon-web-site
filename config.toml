@@ -247,6 +247,12 @@ categories.
 ## Prizes
 
 Each member of the winning team gets a *Polar Loop 2* activity tracker.
+
+<p>
+    <img src="/images/oo_logo.svg" alt="Otavan Opisto">
+    <img src="/images/mamk_logo.svg" alt="MAMK">
+    <img src="/images/vipuvoimaa_logo.svg" alt="Vipuvoimaa EU:lta 2014-2020">
+</p>
 """
     # the picture is storead at static/images/
     # picture = "bg.jpg"
